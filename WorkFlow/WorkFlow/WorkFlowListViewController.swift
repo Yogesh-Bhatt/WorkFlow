@@ -75,7 +75,8 @@ class WorkFlowListViewController: UIViewController {
     func deleteWorkFlow(identifier:String){
         let headers: HTTPHeaders = ["Authorization":"Bearer \(Utility.getAccessToken())"]
         
-        Alamofire.request("http://85.222.238.74/api/v1/workflows/\(identifier)", method: .delete, headers: headers)
+        let deleteURL = WorkFlowApi.DeleteWorkFlow
+        Alamofire.request("\(deleteURL)\(identifier)", method: .delete, headers: headers)
             .responseJSON { response in
                 debugPrint(response)
         }

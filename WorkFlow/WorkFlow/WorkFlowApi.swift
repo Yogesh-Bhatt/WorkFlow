@@ -20,6 +20,5 @@ enum WorkFlowApi {
     static let CreateWorkFlow = WorkFlowApi.BaseURL + "api/v1/workflow"
     static let GetWorkFlow = WorkFlowApi.BaseURL + "api/v1/workflow"
     static let UpdateWorkFlow = WorkFlowApi.BaseURL + "api/v1/workflows/"
-    static let DeleteWorkFlow = WorkFlowApi.BaseURL + "api/v1/"
-
+    static let DeleteWorkFlow = WorkFlowApi.BaseURL + "api/v1/workflows/"
 }

@@ -34,7 +34,7 @@ class LoginViewController: UIViewController {
                 Utility.saveAccessToken(deviceToken: tokenString as! String)
             }
             
-            
+            Utility.registereUser(status: true)
             let storyBoard = UIStoryboard(name: "Main", bundle: nil)
             let workFlowViewController = storyBoard.instantiateViewController(withIdentifier: "WorkFlowListViewController") as!WorkFlowListViewController
             workFlowViewController.userName = self.txtLogin.text!
