@@ -49,9 +49,7 @@ class CreateWorkFlowViewController: UIViewController, SSRadioButtonControllerDel
    
     
     @IBAction func createButtonClicked(_ sender: Any) {
-        
-       // let parameters = ["name":"Yogesh","stage":"Hired"]
-        
+                
         parameter["name"] = txtName.text
         
         let headers: HTTPHeaders = ["Authorization":"Bearer \(Utility.getAccessToken())"]
