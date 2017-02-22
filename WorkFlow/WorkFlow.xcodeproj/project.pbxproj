@@ -164,16 +164,13 @@
 		BA7B88571E5C119300F836D9 /* WorkFlow */ = {
 			isa = PBXGroup;
 			children = (
-				BAE289821E5D3B1F002958CB /* WorkFlowList */,
+				BAE289831E5D3BE3002958CB /* Scenes */,
 				BA1397DE1E5C379A00DB3710 /* Constants */,
 				BAE2897F1E5D1B12002958CB /* Manager */,
 				BA1397EB1E5CD47500DB3710 /* External */,
 				BAE289801E5D390E002958CB /* BaseViewController.swift */,
-				BA1397DC1E5C331E00DB3710 /* LoginViewController.swift */,
-				BA1397DA1E5C30F800DB3710 /* RegisterViewController.swift */,
 				BA7B88581E5C119300F836D9 /* AppDelegate.swift */,
 				BA1397E31E5C4EDA00DB3710 /* Utility.swift */,
-				BA7B885A1E5C119300F836D9 /* CreateWorkFlowViewController.swift */,
 				BA7B885C1E5C119300F836D9 /* Main.storyboard */,
 				BA7B885F1E5C119300F836D9 /* Assets.xcassets */,
 				BA7B88611E5C119300F836D9 /* LaunchScreen.storyboard */,
@@ -215,6 +212,41 @@
 				BA1397D81E5C2ACF00DB3710 /* WorkFlowListViewController.swift */,
 			);
 			name = WorkFlowList;
+			sourceTree = "<group>";
+		};
+		BAE289831E5D3BE3002958CB /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				BAE289851E5D3C06002958CB /* Register */,
+				BAE289841E5D3BF6002958CB /* Login */,
+				BAE289861E5D3C28002958CB /* CreateWorkFlow */,
+				BAE289821E5D3B1F002958CB /* WorkFlowList */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		BAE289841E5D3BF6002958CB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BA1397DC1E5C331E00DB3710 /* LoginViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		BAE289851E5D3C06002958CB /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				BA1397DA1E5C30F800DB3710 /* RegisterViewController.swift */,
+			);
+			name = Register;
+			sourceTree = "<group>";
+		};
+		BAE289861E5D3C28002958CB /* CreateWorkFlow */ = {
+			isa = PBXGroup;
+			children = (
+				BA7B885A1E5C119300F836D9 /* CreateWorkFlowViewController.swift */,
+			);
+			name = CreateWorkFlow;
 			sourceTree = "<group>";
 		};
 		C538E5CC88B462AAD79F2975 /* Frameworks */ = {
