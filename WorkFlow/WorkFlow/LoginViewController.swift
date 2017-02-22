@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class LoginViewController: BaseViewController {
 
     @IBOutlet weak var txtLogin: UITextField!
     @IBOutlet weak var txtPassword: UITextField!
@@ -43,8 +43,7 @@ class LoginViewController: UIViewController {
             self.navigationController?.pushViewController(workFlowViewController, animated: true)
             
         }) { (error) in
-            
-            print(error)
+            self.showAlert(title: "Error", message: error.description)
             
         }
 

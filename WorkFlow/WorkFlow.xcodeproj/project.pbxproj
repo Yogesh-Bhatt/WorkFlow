@@ -25,6 +25,7 @@
 		BA7B88631E5C119300F836D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA7B88611E5C119300F836D9 /* LaunchScreen.storyboard */; };
 		BA7B886E1E5C119400F836D9 /* WorkFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7B886D1E5C119400F836D9 /* WorkFlowTests.swift */; };
 		BA7B88791E5C119400F836D9 /* WorkFlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7B88781E5C119400F836D9 /* WorkFlowUITests.swift */; };
+		BAE289811E5D390E002958CB /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE289801E5D390E002958CB /* BaseViewController.swift */; };
 		D70CBC784D907F0C7D413271 /* Pods_WorkFlow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB1FADA614B2AC8150A403C /* Pods_WorkFlow.framework */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +76,7 @@
 		BA7B88741E5C119400F836D9 /* WorkFlowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkFlowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA7B88781E5C119400F836D9 /* WorkFlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkFlowUITests.swift; sourceTree = "<group>"; };
 		BA7B887A1E5C119400F836D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE289801E5D390E002958CB /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		CDC27C6E9313A82204849702 /* Pods-WorkFlowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkFlowTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WorkFlowTests/Pods-WorkFlowTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F4990EDB5A99039D7D10946E /* Pods-WorkFlow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkFlow.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorkFlow/Pods-WorkFlow.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -165,6 +167,7 @@
 				BA1397DE1E5C379A00DB3710 /* Constants */,
 				BAE2897F1E5D1B12002958CB /* Manager */,
 				BA1397EB1E5CD47500DB3710 /* External */,
+				BAE289801E5D390E002958CB /* BaseViewController.swift */,
 				BA1397DC1E5C331E00DB3710 /* LoginViewController.swift */,
 				BA1397DA1E5C30F800DB3710 /* RegisterViewController.swift */,
 				BA7B88581E5C119300F836D9 /* AppDelegate.swift */,
@@ -486,6 +489,7 @@
 				BA1397DD1E5C331E00DB3710 /* LoginViewController.swift in Sources */,
 				BA1397E21E5C3FA900DB3710 /* AlamofireManager.swift in Sources */,
 				BA1397E61E5CC1BD00DB3710 /* WorkFlowModel.swift in Sources */,
+				BAE289811E5D390E002958CB /* BaseViewController.swift in Sources */,
 				BA1397EA1E5CC45900DB3710 /* SSRadioButton.swift in Sources */,
 				BA7B885B1E5C119300F836D9 /* CreateWorkFlowViewController.swift in Sources */,
 				BA1397E41E5C4EDA00DB3710 /* Utility.swift in Sources */,

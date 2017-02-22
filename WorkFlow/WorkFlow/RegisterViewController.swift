@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RegisterViewController: UIViewController {
+class RegisterViewController: BaseViewController {
 
     @IBOutlet weak var txtUserName: UITextField!
     @IBOutlet weak var txtName: UITextField!
@@ -30,11 +30,7 @@ class RegisterViewController: UIViewController {
             }
             
         }) { (error) in
-            
-            let alert = UIAlertController(title: "Error", message: error.description, preferredStyle: UIAlertControllerStyle.alert)
-            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
-            self.present(alert, animated: true, completion: nil)
-
+            self.showAlert(title: "Error", message: error.description)
         }
     }
     
