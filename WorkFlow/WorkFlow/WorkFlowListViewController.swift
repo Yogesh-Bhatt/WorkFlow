@@ -90,6 +90,7 @@ extension WorkFlowListViewController:UITableViewDelegate, UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
         let cell = tableView.dequeueReusableCell(withIdentifier: "WorkFlowList", for: indexPath)
         let workFlowObj = workFlowArray[indexPath.row]
         cell.textLabel?.text = workFlowObj.name
@@ -101,10 +102,12 @@ extension WorkFlowListViewController:UITableViewDelegate, UITableViewDataSource{
         
         let deleteAction = UITableViewRowAction(style: .default, title: "Delete") {action in
             self.workFlowArray.remove(at: indexPath.row)
-            tableView.reloadData()
             
             let workFlowObj = self.workFlowArray[indexPath.row]
             self.deleteWorkFlow(identifier: workFlowObj.identifier)
+            
+            tableView.reloadData()
+
         }
         
         let editAction = UITableViewRowAction(style: .normal, title: "Edit") {action in
