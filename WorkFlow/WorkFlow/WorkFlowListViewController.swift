@@ -101,10 +101,11 @@ extension WorkFlowListViewController:UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
         
         let deleteAction = UITableViewRowAction(style: .default, title: "Delete") {action in
-            self.workFlowArray.remove(at: indexPath.row)
             
             let workFlowObj = self.workFlowArray[indexPath.row]
             self.deleteWorkFlow(identifier: workFlowObj.identifier)
+
+            self.workFlowArray.remove(at: indexPath.row)
             
             tableView.reloadData()
 
