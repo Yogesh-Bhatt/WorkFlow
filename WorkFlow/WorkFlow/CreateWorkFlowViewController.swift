@@ -15,7 +15,7 @@ enum StageType:String{
     case InProgress = "In Progress"
 }
 
-class CreateWorkFlowViewController: UIViewController, SSRadioButtonControllerDelegate {
+class CreateWorkFlowViewController: BaseViewController, SSRadioButtonControllerDelegate {
     @IBOutlet weak var hired: SSRadioButton!
     @IBOutlet weak var notHired: SSRadioButton!
     @IBOutlet weak var inProgress: SSRadioButton!
@@ -60,7 +60,7 @@ class CreateWorkFlowViewController: UIViewController, SSRadioButtonControllerDel
                 
             })
         }) { (error) in
-            
+            self.showAlert(title: "Error", message: error.description)
         }
       }
 
