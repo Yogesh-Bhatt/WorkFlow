@@ -124,7 +124,6 @@
 			isa = PBXGroup;
 			children = (
 				BA1397DF1E5C37BB00DB3710 /* WorkFlowApi.swift */,
-				BA1397E31E5C4EDA00DB3710 /* Utility.swift */,
 			);
 			name = Constants;
 			sourceTree = "<group>";
@@ -169,6 +168,7 @@
 				BA1397DC1E5C331E00DB3710 /* LoginViewController.swift */,
 				BA1397DA1E5C30F800DB3710 /* RegisterViewController.swift */,
 				BA7B88581E5C119300F836D9 /* AppDelegate.swift */,
+				BA1397E31E5C4EDA00DB3710 /* Utility.swift */,
 				BA1397D81E5C2ACF00DB3710 /* WorkFlowListViewController.swift */,
 				BA7B885A1E5C119300F836D9 /* CreateWorkFlowViewController.swift */,
 				BA7B885C1E5C119300F836D9 /* Main.storyboard */,
