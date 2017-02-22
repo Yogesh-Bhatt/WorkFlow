@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let isUserRegistered = Utility.isUserRegistered()
         
-        if (!isUserRegistered) {
+        if (isUserRegistered) {
             
             let storyBoard = UIStoryboard(name: "Main", bundle: nil)
             let loginViewController = storyBoard.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
