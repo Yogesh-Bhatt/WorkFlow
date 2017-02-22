@@ -164,6 +164,7 @@
 		BA7B88571E5C119300F836D9 /* WorkFlow */ = {
 			isa = PBXGroup;
 			children = (
+				BAE289821E5D3B1F002958CB /* WorkFlowList */,
 				BA1397DE1E5C379A00DB3710 /* Constants */,
 				BAE2897F1E5D1B12002958CB /* Manager */,
 				BA1397EB1E5CD47500DB3710 /* External */,
@@ -172,13 +173,11 @@
 				BA1397DA1E5C30F800DB3710 /* RegisterViewController.swift */,
 				BA7B88581E5C119300F836D9 /* AppDelegate.swift */,
 				BA1397E31E5C4EDA00DB3710 /* Utility.swift */,
-				BA1397D81E5C2ACF00DB3710 /* WorkFlowListViewController.swift */,
 				BA7B885A1E5C119300F836D9 /* CreateWorkFlowViewController.swift */,
 				BA7B885C1E5C119300F836D9 /* Main.storyboard */,
 				BA7B885F1E5C119300F836D9 /* Assets.xcassets */,
 				BA7B88611E5C119300F836D9 /* LaunchScreen.storyboard */,
 				BA7B88641E5C119300F836D9 /* Info.plist */,
-				BA1397E51E5CC1BD00DB3710 /* WorkFlowModel.swift */,
 			);
 			path = WorkFlow;
 			sourceTree = "<group>";
@@ -207,6 +206,15 @@
 				BA1397E11E5C3FA900DB3710 /* AlamofireManager.swift */,
 			);
 			name = Manager;
+			sourceTree = "<group>";
+		};
+		BAE289821E5D3B1F002958CB /* WorkFlowList */ = {
+			isa = PBXGroup;
+			children = (
+				BA1397E51E5CC1BD00DB3710 /* WorkFlowModel.swift */,
+				BA1397D81E5C2ACF00DB3710 /* WorkFlowListViewController.swift */,
+			);
+			name = WorkFlowList;
 			sourceTree = "<group>";
 		};
 		C538E5CC88B462AAD79F2975 /* Frameworks */ = {
